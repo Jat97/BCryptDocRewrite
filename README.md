@@ -1,6 +1,6 @@
 # BCryptDocRewrite
 
-A reimagining of the BCryptJS docs for a technical writing portfolio. I am not affiliated with the BCryptJS library or its developers.
+A reimagining of the BCryptJS documentation for a technical writing portfolio. I am not affiliated with the BCryptJS library or its developers.
 
 ## BCryptJS
 
