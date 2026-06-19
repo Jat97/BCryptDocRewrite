@@ -2,7 +2,7 @@
 
 ## What is BCrypt?
 
-BCrypt is a password hashing function designed to protect the user's credentials. This is done by two processes. The first is salting, which assigns a unique string to the user's password, even if it's identical to another user's. The second is hashing, which converts the user's password into a random string of characters to obscure it from hackers.
+BCrypt is a password hashing function designed to protect the user's credentials. This is done by two processes. The first is salting, which assigns a unique string to the user's password, even if it's identical to another user's. The second is hashing, which converts the user's password into a random string of characters to obscure it from attackers.
 
 ## Installation
 
