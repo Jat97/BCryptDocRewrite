@@ -19,7 +19,7 @@ const config = {
 
   organizationName: 'Jat97',
   projectName: 'BcryptDocRewrite', 
-  trailingSlash: false
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
 
