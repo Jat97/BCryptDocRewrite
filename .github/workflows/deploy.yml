@@ -9,6 +9,9 @@ jobs:
   build:
     name: BCryptDocRewrite
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./bcrypt-doc-rewrite
     steps:
       - uses: actions/checkout@v4
         with:
@@ -26,15 +29,11 @@ jobs:
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: build
+          path: ./bcrypt-doc-rewrite/build
 
   deploy:
     name: Deploy to GitHub Pages
     needs: build
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./bcrypt-doc-rewrite
 
     permissions:
       pages: write 
