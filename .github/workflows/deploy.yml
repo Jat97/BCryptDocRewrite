@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        workflow-directory: ./bcrypt-doc-rewrite
+        working-directory: ./bcrypt-doc-rewrite
 
     permissions:
       pages: write 
